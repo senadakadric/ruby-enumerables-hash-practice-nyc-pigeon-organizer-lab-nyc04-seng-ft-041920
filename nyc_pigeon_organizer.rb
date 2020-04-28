@@ -1,3 +1,4 @@
+require 'pry'
 def nyc_pigeon_organizer(data)
   
   #creating a new hash that we're gonna store the organized data in
