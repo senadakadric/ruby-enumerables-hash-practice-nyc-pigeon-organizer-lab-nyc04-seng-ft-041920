@@ -1,4 +1,3 @@
-require 'pry'
 def nyc_pigeon_organizer(data)
   
   #creating a new hash that we're gonna store the organized data in
@@ -32,7 +31,6 @@ def nyc_pigeon_organizer(data)
       
       # adding the values into the array, turning the symbols into strings
       organized_pigeon_data[name][color_gender_lives] << key_values.to_s
-        binding.pry
       end
     end
   end
